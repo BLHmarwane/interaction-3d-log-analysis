@@ -17,7 +17,11 @@ L'analyse quantitative porte uniquement sur `SpaceMouse`, `Mouse2D` et `Trackpad
 
 ## Methode
 
-J'ai choisi une approche simple et separee du logiciel principal. L'idee etait de construire une chaine Python capable de generer un jeu de donnees representatif, calculer des metriques, puis produire des graphiques facilement interpretables.
+Pour cette partie du stage, j'ai d'abord concu un simulateur independant afin de tester differentes modalites d'interaction avant leur integration eventuelle dans le logiciel principal. Cette separation permettait d'experimenter plus librement sur les interactions, sans impacter directement le logiciel utilise dans le contexte d'essai clinique.
+
+Dans ce simulateur, j'ai ajoute un systeme de logs base sur les matrices de transformation. A la fin de chaque essai, le simulateur enregistre la transformation cible et la transformation finale obtenue par l'utilisateur. Ces logs sont ensuite traites separement dans ce depot afin de realiser l'analyse quantitative.
+
+En parallele, les retours utilisateurs sont gardes pour l'analyse qualitative. Cette separation permet de comparer les performances mesurees dans les logs avec le ressenti utilisateur, sans melanger les deux types de donnees.
 
 Chaque essai quantitatif est represente par deux matrices 4x4 :
 
