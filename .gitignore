@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Local generated data
+data/raw/*
+data/processed/*
+data/interim/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/interim/.gitkeep
+*.csv
+*.log
+*.jsonl
+
+# Temporary files
+*.tmp
+.DS_Store
+.matplotlib-cache/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Local project brief used by Codex, not part of the public repository
+CODEX_PROJECT_BRIEF.md
