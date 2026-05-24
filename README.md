@@ -1,8 +1,8 @@
 # Interaction 3D Log Analysis
 
-Ce depot presente une tache realisee dans le cadre de mon stage autour de l'evaluation de modalites d'interaction avec un modele 3D. Cette tache s'inscrivait dans un contexte plus large : explorer comment un utilisateur peut manipuler un objet 3D de maniere precise, stable et intuitive dans un environnement medico-chirurgical simule.
+Ce depot presente une tache realisee dans le cadre de mon stage autour de la validation de modalites d'interaction et de fonctionnalites a integrer dans un logiciel en phase d'essai clinique. Cette tache s'inscrivait dans un contexte plus large : evaluer comment un utilisateur peut manipuler un modele 3D de maniere precise, stable et intuitive dans un environnement medico-chirurgical.
 
-L'objectif n'etait pas de faire une validation clinique, mais de mettre en place une petite chaine d'analyse permettant de comparer plusieurs modalites a partir de logs de manipulation et de retours utilisateurs.
+L'objectif de cette partie etait de mettre en place une chaine d'analyse permettant de comparer plusieurs modalites a partir de logs de manipulation et de retours utilisateurs. Le depot se concentre donc sur la partie analyse des donnees et interpretation des resultats.
 
 ## Modalites et perimetre
 
