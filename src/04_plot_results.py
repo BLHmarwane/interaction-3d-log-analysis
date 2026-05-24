@@ -10,7 +10,6 @@ Outputs:
     figures/02_boxplot_rotation_error.png
     figures/03_boxplot_completion_time.png
     figures/04_boxplot_path_length.png
-    figures/05_boxplot_nb_corrections.png
     figures/06_qualitative_scores_by_modality.png
     figures/07_preference_votes.png
     figures/08_summary_radar_optional.png
@@ -70,12 +69,6 @@ BOXPLOT_CONFIG = [
         "Longueur de chemin par modalite",
         "Longueur de chemin (mm)",
         "04_boxplot_path_length.png",
-    ),
-    (
-        "nb_corrections",
-        "Nombre de corrections par modalite",
-        "Nombre de corrections",
-        "05_boxplot_nb_corrections.png",
     ),
 ]
 
