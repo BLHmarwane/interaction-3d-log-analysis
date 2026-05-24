@@ -4,6 +4,10 @@ Ce depot presente une tache realisee dans le cadre de mon stage autour de la val
 
 L'objectif de cette partie etait de mettre en place une chaine d'analyse permettant de comparer plusieurs modalites a partir de logs de manipulation et de retours utilisateurs. Le depot se concentre donc sur la partie analyse des donnees et interpretation des resultats.
 
+Le simulateur utilise pour tester les modalites et produire les logs de transformation est presente dans le depot associe :
+
+[Manual Registration Simulator V2](https://github.com/BLHmarwane/ManualRegistrationGL_V2)
+
 ## Modalites et perimetre
 
 Les modalites etudiees sont :
